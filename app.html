@@ -1,0 +1,68 @@
+<!--
+   _____      _           _____          _
+  / ____|    | |         |  __ \        | |
+ | |    _   _| |__   __ _| |__) |__   __| |
+ | |   | | | | '_ \ / _` |  ___/ _ \ / _` |
+ | |___| |_| | |_) | (_| | |  | (_) | (_| |
+  \_____\__,_|_.__/ \__,_|_|   \___/ \__,_|
+-->
+<!DOCTYPE html>
+<html lang="es" {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5NGQVTTXF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X5NGQVTTXF');
+    </script>
+    <!-- end Google Analytics -->
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "CubaPod",
+      "url": "https://cubapod.net",
+      "foundingDate": "2020-03-01",
+      "description": "Plataforma cubana de podcasting, todos los pódcasts cubanos en un mismo lugar.",
+      "founders": [
+          {
+              "@type": "Person",
+              "name": "Carlos Lugones",
+              "url": "https://lugodev.com"
+          },
+          {
+              "@type": "Person",
+              "name": "Ernesto Acosta",
+              "url": "https://ernestoacosta.me"
+          }
+      ],
+      "logo": "https://cubapod.net/img-cubapod.jpg",
+      "email": "soporte@cubapod.net",
+      "sameAs" : [
+          "https://www.wikidata.org/wiki/Q102175918",
+          "https://twitter.com/CubaPod",
+          "https://facebook.com/CubaPod",
+          "https://t.me/CubaPod",
+          "https://t.me/CubaPodBot",
+          "https://linkedin.com/company/cubapod",
+          "https://instagram.com/cuba.pod",
+          "https://medium.com/cubapod"
+      ],
+      "contactPoint" : [
+          {
+              "@type" : "ContactPoint",
+              "contactType" : "customer service",
+              "email": "soporte@cubapod.net",
+              "url": "https://cubapod.net"
+          }
+      ]
+     }
+     </script>
+  </body>
+</html>
