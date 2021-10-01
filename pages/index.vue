@@ -12,7 +12,7 @@
 </template>
 
 <style>
-a {
+a, a:hover {
   color: white;
   text-decoration: underline;
 }
